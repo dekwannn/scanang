@@ -1,0 +1,17 @@
+{
+  "name": "sopan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sopan - Lensa Etika Budaya Bali untuk wisatawan, berbasis AI vision.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "lucide-react": "^1.70.0",
+    "next": "^16.4.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
