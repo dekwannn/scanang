@@ -68,6 +68,30 @@ npm run dev                  # buka http://localhost:3000
 Deploy ke Vercel: import repo, lalu isi Environment Variables `GEMINI_API_KEY` dan `GEMINI_MODEL`.
 Kamera dan mikrofon membutuhkan HTTPS (otomatis di Vercel) atau `localhost`.
 
+## Deployment
+Target: **Vercel** (gratis, otomatis HTTPS sehingga kamera & mikrofon berfungsi).
+
+**Cara A, lewat GitHub (disarankan):**
+1. Push repo ini ke GitHub.
+2. Di vercel.com, pilih **Add New → Project**, import repo, Framework: Next.js (terdeteksi otomatis).
+3. Pada **Environment Variables**, isi `GEMINI_API_KEY`, `GEMINI_MODEL=gemini-3.5-flash`,
+   dan `GEMINI_FALLBACK_MODELS=gemini-3.5-flash-lite,gemini-flash-lite-latest`.
+4. Klik **Deploy**.
+
+**Cara B, lewat Vercel CLI:**
+```bash
+vercel login
+vercel link
+vercel env add GEMINI_API_KEY production
+vercel --prod
+```
+
+**Version locking (sesuai panduan lomba):**
+```bash
+git tag v1.0-submission
+git push origin v1.0-submission
+```
+
 ## Deployment URL
 _TODO: isi URL Vercel_
 
