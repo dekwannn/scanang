@@ -93,7 +93,7 @@ git push origin v1.0-submission
 ```
 
 ## Deployment URL
-_TODO: isi URL Vercel_
+https://scanang.vercel.app
 
 ## Demo Account
 Tidak diperlukan (tanpa login).
