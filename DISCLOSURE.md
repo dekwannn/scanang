@@ -1,8 +1,8 @@
-# AI & Technology Disclosure – Sopan
+# AI & Technology Disclosure – Scanang
 
 | Komponen | Isi |
 |---|---|
-| Nama Produk | Sopan – Bali Culture Lens |
+| Nama Produk | Scanang – Bali Culture Lens |
 | Framework / Frontend | Next.js (App Router), React |
 | Backend / Runtime | Next.js Route Handler di Node.js (Vercel Functions) |
 | Database / Storage | Tidak ada. Preferensi bahasa disimpan di `localStorage` browser. Foto tidak disimpan di server. |
@@ -17,7 +17,7 @@
 | Third-party Assets / Credits | Font Poppins (SIL Open Font License). Foto landing page dari Unsplash (Unsplash License), sumber tiap foto di `lib/photos.js`. |
 
 ## Data & Privasi
-- Foto dikirim ke Gemini API hanya untuk diproses dan tidak disimpan oleh server Sopan.
+- Foto dikirim ke Gemini API hanya untuk diproses dan tidak disimpan oleh server Scanang.
 - Pada free tier, Google dapat menggunakan data permintaan untuk meningkatkan layanannya.
   Pengguna diingatkan agar tidak memotret wajah orang lain tanpa izin.
 - Pada Chrome, pengenalan suara diproses oleh server Google.

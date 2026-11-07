@@ -7,7 +7,7 @@ import { ScanLine } from "lucide-react";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "600", "700", "800"], variable: "--font-poppins" });
 
 export const metadata = {
-  title: "Sopan – Bali Culture Lens",
+  title: "Scanang – Bali Culture Lens",
   description: "A guide that explains Balinese culture and etiquette from a photo, in your language.",
 };
 
@@ -28,9 +28,9 @@ export default function RootLayout({ children }) {
         <a href="#main" className="skip">Skip to content</a>
         <header className="topbar">
           <div className="topbar-inner">
-            <Link href="/" className="brand" aria-label="Sopan home">
+            <Link href="/" className="brand" aria-label="Scanang home">
               <span className="brand-mark" aria-hidden="true" />
-              <span>Sopan</span>
+              <span>Scanang</span>
             </Link>
             <nav className="nav" aria-label="Main">
               <Link href="/etiket">Etiquette</Link>
@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
         <main id="main">{children}</main>
         <footer className="footer">
           <div className="footer-inner">
-            <span className="brand small"><span className="brand-mark" aria-hidden="true" /> Sopan</span>
+            <span className="brand small"><span className="brand-mark" aria-hidden="true" /> Scanang</span>
             <span>Bali DigiFest 2026</span>
           </div>
         </footer>

@@ -41,7 +41,7 @@ export default function Scan() {
 
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("sopan.lang");
+      const saved = localStorage.getItem("scanang.lang");
       if (saved) setLang(saved);
     } catch {}
     setCanSpeak("speechSynthesis" in window);
@@ -53,7 +53,7 @@ export default function Scan() {
 
   function changeLang(code) {
     setLang(code);
-    try { localStorage.setItem("sopan.lang", code); } catch {}
+    try { localStorage.setItem("scanang.lang", code); } catch {}
   }
 
   async function callAI(base64, q) {

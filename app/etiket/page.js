@@ -2,7 +2,7 @@ import Link from "next/link";
 import { CircleCheck, CircleX, Landmark, Camera, ArrowRight } from "lucide-react";
 import { KEWAJIBAN, LARANGAN, ETIKA_UMUM, GUIDELINE_SOURCE } from "../../lib/guidelines";
 
-export const metadata = { title: "Etiket Bali – Sopan" };
+export const metadata = { title: "Etiket Bali – Scanang" };
 
 const GROUPS = [
   { icon: CircleCheck, title: "Kewajiban wisatawan", items: KEWAJIBAN, color: "var(--ok)" },

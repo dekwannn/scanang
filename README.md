@@ -1,7 +1,7 @@
-# Sopan – Bali Culture Lens
+# Scanang – Bali Culture Lens
 
 ## Description
-**Sopan** adalah pemandu etika budaya Bali berbasis AI. Wisatawan cukup memotret apa yang ada
+**Scanang** adalah pemandu etika budaya Bali berbasis AI. Wisatawan cukup memotret apa yang ada
 di depannya (pura, canang sari, upacara, penjor, pakaian), lalu AI menjelaskan maknanya serta
 apa yang **boleh** dan **jangan** dilakukan, dalam bahasa wisatawan, lengkap dengan suara.
 

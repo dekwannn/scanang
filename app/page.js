@@ -21,7 +21,7 @@ const FACTS = [
 
 const STEPS = [
   { icon: Camera, title: "Take a photo", text: "Point your phone at a temple gate, an offering, a ceremony or your outfit." },
-  { icon: Search, title: "Sopan reads it", text: "It identifies what is in the photo and checks Bali's official rules for visitors." },
+  { icon: Search, title: "Scanang reads it", text: "It identifies what is in the photo and checks Bali's official rules for visitors." },
   { icon: Volume2, title: "Listen and ask", text: "Hear the answer in your language. Ask a follow-up question by voice or text." },
 ];
 
@@ -45,14 +45,14 @@ const FEATURES = [
   { icon: Globe, title: "Speaks your language", text: "English, Indonesian, Chinese, Russian, Japanese, Korean, French and German." },
   { icon: MessageCircleQuestion, title: "Answers follow-up questions", text: "“Can I take photos here?” The photo stays in context for every question." },
   { icon: ScrollText, title: "Based on official rules", text: "Bali Governor Circular No. 4/2023 and common temple etiquette." },
-  { icon: ShieldCheck, title: "Honest when unsure", text: "If the photo is unclear, Sopan tells you to ask a local or the pemangku." },
+  { icon: ShieldCheck, title: "Honest when unsure", text: "If the photo is unclear, Scanang tells you to ask a local or the pemangku." },
   { icon: WifiOff, title: "Works when busy", text: "Backup systems take over automatically. The etiquette guide works offline." },
 ];
 
 const FAQ = [
-  { q: "Is Sopan free?", a: "Yes. There is no account, no subscription and nothing to install. Open the website on your phone." },
-  { q: "Do you keep my photos?", a: "No. A photo is sent once to be analysed and is not stored by Sopan." },
-  { q: "What if the answer is wrong?", a: "Sopan shows how confident it is. When it is unsure, it says so. Local signs and the advice of locals always come first." },
+  { q: "Is Scanang free?", a: "Yes. There is no account, no subscription and nothing to install. Open the website on your phone." },
+  { q: "Do you keep my photos?", a: "No. A photo is sent once to be analysed and is not stored by Scanang." },
+  { q: "What if the answer is wrong?", a: "Scanang shows how confident it is. When it is unsure, it says so. Local signs and the advice of locals always come first." },
   { q: "Where do the rules come from?", a: "From Bali Governor Circular No. 4/2023 for foreign visitors, plus etiquette commonly observed at temples and ceremonies." },
 ];
 
@@ -68,7 +68,7 @@ export default function Landing() {
             <span className="kicker">Bali culture guide for visitors</span>
             <h1>Know what it means before you step on it.</h1>
             <p className="lead">
-              Take a photo of a temple, an offering or a ceremony. Sopan tells you what it is,
+              Take a photo of a temple, an offering or a ceremony. Scanang tells you what it is,
               what to do and what to avoid, spoken in your language.
             </p>
             <div className="cta-row">
@@ -165,7 +165,7 @@ export default function Landing() {
             <Photo k="flowers" w={900} h={900} />
           </figure>
           <div data-reveal>
-            <span className="kicker">Example of what Sopan explains</span>
+            <span className="kicker">Example of what Scanang explains</span>
             <h2>The four colours of a canang sari.</h2>
             <p className="sub">Each flower colour faces the direction of the god it honours.</p>
             <table className="dir-table">
