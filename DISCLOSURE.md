@@ -12,7 +12,7 @@
 | Dataset / Data Source | Surat Edaran Gubernur Bali No. 4/2023 dan etika umum pura/upacara, diringkas di `lib/guidelines.js` sebagai konteks prompt. Tidak ada pelatihan model. |
 | Open-source Libraries | next, react, react-dom, lucide-react (ikon) |
 | Template / Boilerplate | Tidak ada (ditulis dari nol) |
-| AI Coding Assistant | Claude (Anthropic) dipakai untuk membantu menulis kode dan dokumentasi. Seluruh kode telah dipahami dan diuji oleh tim. |
+| AI Coding Assistant | Claude (Anthropic) dipakai untuk membantu menulis kode dan dokumentasi. Seluruh kode telah dipahami dan diuji oleh pengembang. |
 | Pre-existing Components | Tidak ada. Project dibuat khusus untuk kompetisi ini. |
 | Third-party Assets / Credits | Font Poppins (SIL Open Font License). Foto landing page dari Unsplash (Unsplash License), sumber tiap foto di `lib/photos.js`. |
 
@@ -23,5 +23,5 @@
 - Pada Chrome, pengenalan suara diproses oleh server Google.
 - API key hanya ada di environment variable server dan tidak pernah dikirim ke browser.
 
-Pernyataan: Kami menyatakan bahwa informasi di atas benar dan lengkap. Kami bertanggung jawab atas
+Pernyataan: Saya menyatakan bahwa informasi di atas benar dan lengkap. Saya bertanggung jawab atas
 penggunaan teknologi, source code, data, library, API, model AI, dan aset yang digunakan pada produk.

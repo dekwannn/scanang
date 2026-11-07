@@ -119,4 +119,4 @@ Tidak diperlukan (tanpa login).
 Lihat juga [DISCLOSURE.md](DISCLOSURE.md).
 
 ## Team Members
-_TODO: Nama – Peran_
+- **Kadek Widiadnyana, S.Kom** – peserta individu (produk, desain, pengembangan, dokumentasi)
